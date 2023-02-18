@@ -237,7 +237,11 @@ textarea:focus{
 }
 #Heading:hover{
     background-color: rgb(41, 154, 236);
-    color: ;
+    
+}
+[contentEditable]
+{
+    outline: none;
 }
 @media only screen and (max-width:600px) {
     html{
