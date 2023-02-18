@@ -1,0 +1,351 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+html{
+    font-size: 80%;
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+    
+}
+.left{ 
+    padding: 0;
+    margin: 0;
+   padding-left: 10px;
+    width: 15%;
+    height: 101vh;
+    background-color: #EEEEEE;
+    
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.words{
+    font-size: 15px;
+}
+/* p{
+    display: inline;
+} */
+
+.pehla{
+    display: flex;
+    margin-bottom:20px ;
+    
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: 0 0 50px 0;
+    padding-top:20px ;
+    
+    
+}
+p{
+    padding: 5px;
+}
+
+#projects{
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    width: 60%;
+    height: 30px;
+    background-color:  #EEEEEE;
+}
+.error_logo{
+    width: 15px;
+    height: 15px;
+    
+}
+.error{
+    background-color: #F8C4B4;
+    border-radius: 10px;
+    width: 25vh;
+    color: #E53935;
+}
+a:visited{
+    color: #E53935;
+    
+}
+
+.aakhri{
+    margin-top: 15vh;
+    display: flex;
+    overflow-y: scroll;
+}
+.photo{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    
+}
+.project{
+    font-size: 1.4rem;
+}
+/* for middle */
+.pura{
+    display:flex;
+}
+.middle{
+    
+    width: 70%;
+}
+.l{
+    padding-left:1rem;
+margin-top: 1rem;    }
+.bar{
+    background-color:#EEEEEE ;
+    padding: 1.2rem;
+    margin-left: 0;
+    
+}
+.middle1>p{
+    margin: 0;
+    padding: 0;
+    color: grey;
+}
+.pehlah1{
+    border-bottom: 1px solid black;
+    width:26%;
+    border-bottom-style: dashed;
+    font-size: 220%;
+   
+   
+}
+.head{
+    display: flex;
+}
+#heading{
+    justify-content: center;
+    align-items: center;
+}
+/* .alert{
+
+} */
+.right{
+    width: 18%;
+    border: 1px solid  #EEEEEE;
+   margin-top: 7rem;
+ 
+}
+.righa{
+    overflow-y: scroll;
+    overflow-x: hidden;;
+    /* overflow: hidden; */
+    height: 80vh
+}
+.righa>p{
+padding: 0.5rem;
+}
+.righa>h1{
+    margin: 0px;
+    padding: 10px;
+color: blueviolet ;
+}
+b{
+    margin: 0px;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    display: block;
+}
+#Tag2{
+    margin: 1rem;
+    margin-bottom: 0;
+    width:80%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.first{
+    background-color: #EEEEEE;
+    
+    
+}
+textarea{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.btn{
+    margin: 1rem;
+    width:86%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    color: #EEEEEE;
+    background:linear-gradient(to right,blueviolet,blue);
+}
+.btn:hover{
+    background-color: blueviolet;
+    color: black;
+    background: none;
+}
+.k{
+    
+    padding-top:2px; 
+    
+}
+textarea{
+    resize: none;
+
+    
+}
+textarea#content1{
+    border: none;
+}
+hr{
+    border: 1px solid #EEEEEE;
+}
+.idea{
+    height:200px;
+    margin-left:2rem ;
+}
+.middle1{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height:4.8rem;
+}
+.bar>p{
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+.bar{
+    display: flex;
+}
+#content1{
+    margin-left: 0;
+}
+textarea:focus{
+    outline: none;
+}
+#Heading{
+    
+    margin-left: 4rem;
+    padding: 1rem;
+    width: 10%;
+    background-color: rgb(130, 53, 236);
+    color: #EEEEEE;
+    border-radius: 1rem;
+    border: none;
+}
+#Heading:hover{
+    background-color: rgb(41, 154, 236);
+    color: ;
+}
+@media only screen and (max-width:600px) {
+    html{
+        /* font-size: 50%; */
+    }
+    .pura{
+        display:flex;
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        justify-content: center;
+        height: auto;
+    }
+    .middle{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding-left: 0px;
+    }
+    .right{
+        width: 100%;
+        justify-content: center;
+        margin-top: 4rem;
+        height: auto;
+    }
+    .bar{
+          margin: 0px;
+    }
+    .pehlah1{
+        font-size: small;
+        margin-top: 1rem;
+    }
+    .l{
+        padding-left:1rem;
+    margin-top: 1rem;    }
+        .first{
+            padding-left: 1rem;
+        }
+        /* .logo{
+        height: 30px;
+        width: 30px;
+    }
+    .icon{
+        height: 10px;
+        width: 10px;
+    } */
+    .aakhri{
+        padding-bottom: 20px;
+    }
+    select{
+        width: 60%;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    textarea#content1{
+        width: 100%;
+    }
+    textarea#textbox{
+          width: 70%;
+    }
+    .btn{
+        width:60%;
+    }
+    #Tag2{
+        width:70%;
+    }
+    #Heading{
+        margin-left:3rem ;
+        width: fit-content;
+    }
+    /* select#Tag2{
+        width: 40%;
+    } */
+    /* .left{
+         width: 25%;
+    }
+    .error{
+        width:80%;
+    }
+    .right{
+        width: 25%;
+        margin-top: 17%;
+    }
+    .idea{
+        height: 50px;
+    }
+    .pehlah1{
+        font-size: 50%;
+        padding-top: 5px;
+    }
+    p{
+        font-size: 20%;
+    }
+    .left>p{
+        padding: 1px;
+    }
+    .words{
+        font-size: 10px;
+    }
+    .btn{
+        font-size: 10px;
+    }
+    #textbox{
+        width:100px;
+        height: 100px;
+    } */
+}

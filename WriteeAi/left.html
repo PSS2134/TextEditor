@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="left.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&family=Montserrat&family=Sacramento&display=swap"
+    rel="stylesheet">
+   
+  <title>WriteeAi</title>
+</head>
+
+<body>
+  <div class="pura">
+    <div class="left">
+      <img class="logo" style="display: block;" src="Images/1000_F_166941624_1OX2g7RuddZlpoyowgJtTiHOs1UEHMJ9.jpg" alt="logo">
+      <!-- <a href="https://www.flaticon.com/free-icons/home-button" title="home button icons">Home button icons created by Kiranshastry - Flaticon</a> -->
+      <div class="pehla">
+        <img class="icon" src="Images/house.png" alt="">
+        <span>
+          <p>Home</p>
+        </span>
+      </div>
+      <div class="pehla">
+        <img class="icon" src="Images/document.png" alt="">
+        <p>My Documents</p>
+      </div>
+      <div class="pehla"><img class="icon" src="Images/toolbox.png" alt="">
+        <p>Toolkit</p>
+      </div>
+
+      <p class="words">WORDS GENERATED</p>
+      <progress style="color:antiquewhite" id="words" value="7928" max="100000"> 32% </progress>
+      <p style=" font-size: 10px;">7928 out of 100000 words</p>
+
+      <div class="project">
+        <p style="margin-top: 20px;" class="hel">PROJECT</p>
+        <select name="id" id="projects">
+          <option value="linkedin">Linkedin Posts</option>
+        </select>
+      </div>
+      <div class="alert">
+        <img src="">
+      </div>
+      <div class="error">
+        <p style="color: #E53935;"><span style="color:red">⚠</span> -57 days left</p>
+        <p style="padding-top:15px ;"><a href="">Click Here</a> <span style="color: #E53935;">to choose your plan now</span></p>
+      </div>
+
+      <div class="aakhri">
+        <img class="photo" src="Images/WhatsApp Image 2023-02-11 at 21.48.29.jpeg" alt="photo">
+       <a href="https://www.linkedin.com/in/priyansh-shrivastav-b5868b229/"><p style="padding-left:10px;">Priyansh Shrivastav </p></a>
+      </div>
+    </div>
+
+    <!-- Middle part -->
+    <div class="middle">
+    <div class="head">
+      <h1 contenteditable="true" id ="name" class="l"class="pehlah1">Untitled Document</h1>
+      <button class="l" id="Heading" type="submit">Change</button></div>
+    
+      <p class="l" style="margin-top:5px ;">Last updated at 7/2/2023</p>
+      <div class="bar">
+      
+      <p>Normal</p>
+      <p>Sans Serif</p>
+      <p id="bold">B</p>
+      <p id="italics">I</p>
+      <p id="underline">U</p>
+      <p class="first">Metrics & Suggestions</p>
+      </div>
+      <textarea spellcheck="false" name="" id="content1" cols="140" rows="40" placeholder="Start Writing Here"></textarea>
+      <!--spellcheck is different attribute and not a property of style -->
+
+      
+    
+    
+    </div>
+
+
+  <!-- right part -->
+  
+
+  <div class="right">
+   
+    <p style="padding:15px "class="first">Metrics & Suggestions</p>
+
+    <div class="righa">
+      <h1>Suggestions</h1>
+      <img class="idea" src="Images/propose-brilliant-idea-suggest-offer-260nw-1117057511.webp" alt="idea">
+   
+      <p  class="first">In-situ Toolkit (Beta)</p>
+      <b>Select Content Type <span style="color: red;">*</span></b>
+      <select name="select" id="Tag2"> <option value="linkedin">Select</option></select>
+      <b>Content Description <span style="color: red;">*</span></b>
+      <textarea spellcheck="false" name="content2" id="textbox" cols="25" rows="5" placeholder="Describe your content here"></textarea>
+
+      <button class="btn" type="submit">Brew Magic</button>
+      <hr>
+      <b>Words:</b>
+      <b class="k">Characters:</b>
+    </div>
+  </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+
+</html>
